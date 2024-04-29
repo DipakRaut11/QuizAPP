@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_out"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time out"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
